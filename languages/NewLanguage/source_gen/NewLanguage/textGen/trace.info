@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info-v2>
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="16,0,72,0" name="NewLanguage.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:2ab30707-4986-4902-b2ed-9f6813b594bf(NewLanguage.textGen)/3508209337026281146">
+    <file name="Base_TextGen.java">
+      <node id="3508209337026281146" at="15,54,16,55" concept="5" />
+      <node id="3508209337026292220" at="17,5,18,217" concept="5" />
+      <node id="3508209337026292220" at="18,217,19,70" concept="5" />
+      <node id="3508209337026292220" at="20,37,21,29" concept="1" />
+      <node id="3508209337026292220" at="22,31,23,27" concept="1" />
+      <node id="3508209337026292220" at="21,29,24,9" concept="3" />
+      <node id="3508209337026292220" at="19,70,25,7" concept="2" />
+      <node id="3508209337026292220" at="16,55,26,5" concept="0" />
+      <node id="3508209337026281146" at="14,0,28,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3508209337026292220" at="22,31,23,27" />
+      <scope id="3508209337026292220" at="20,37,24,9" />
+      <scope id="3508209337026292220" at="19,70,25,7">
+        <var name="item" id="3508209337026292220" />
+      </scope>
+      <scope id="3508209337026292220" at="17,5,25,7">
+        <var name="collection" id="3508209337026292220" />
+        <var name="lastItem" id="3508209337026292220" />
+      </scope>
+      <scope id="3508209337026281146" at="15,54,26,5">
+        <var name="tgs" id="3508209337026281146" />
+      </scope>
+      <scope id="3508209337026281146" at="14,0,28,0">
+        <var name="ctx" id="3508209337026281146" />
+      </scope>
+      <unit id="3508209337026281146" at="13,0,29,0" name="NewLanguage.textGen.Base_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:2ab30707-4986-4902-b2ed-9f6813b594bf(NewLanguage.textGen)/3508209337026293201">
+    <file name="Item_TextGen.java">
+      <node id="3508209337026293201" at="13,54,14,55" concept="5" />
+      <node id="3508209337026293201" at="14,55,15,25" concept="1" />
+      <node id="3508209337026293201" at="15,25,16,192" concept="1" />
+      <node id="3508209337026293201" at="12,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="3508209337026293201" at="13,54,16,192">
+        <var name="tgs" id="3508209337026293201" />
+      </scope>
+      <scope id="3508209337026293201" at="12,0,18,0">
+        <var name="ctx" id="3508209337026293201" />
+      </scope>
+      <unit id="3508209337026293201" at="11,0,19,0" name="NewLanguage.textGen.Item_TextGen" />
+    </file>
+  </root>
+</debug-info-v2>
+
